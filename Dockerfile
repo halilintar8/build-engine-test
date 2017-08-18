@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM ubuntu:16.04
 MAINTAINER Abraham Godong <abrahamg@strategies360.com>
 
 RUN apt update && apt -y upgrade && \

@@ -10,7 +10,7 @@ RUN apt update && apt -y upgrade && \
         gnupg2 \
         libpng-dev \
     && \
-    (curl -sL https://deb.nodesource.com/setup_7.x | bash -) && \
+    (curl -sL https://deb.nodesource.com/setup_11.x | bash -) && \
     apt -y install nodejs && \
     npm install -g bower gulp && \
     (echo "deb https://packages.cloud.google.com/apt cloud-sdk-$(lsb_release -c -s) main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list) && \

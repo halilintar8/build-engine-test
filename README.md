@@ -1,5 +1,5 @@
 # Build Engine
-This image is intented to automate the build process that require npm, bower, gulp and python.
+This image is intented to automate the build process that require npm, bower, gulp and pythonb.
 
 The image includes the following software
 

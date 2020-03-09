@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Abraham Godong <abrahamg@strategies360.com>
+MAINTAINER halilintar8 <halilintar8@yahoo.com>
 
 RUN apt update && apt -y upgrade && \
     apt -y install \
